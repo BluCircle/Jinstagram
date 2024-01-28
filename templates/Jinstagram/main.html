@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Symbols+Outlined" rel="stylesheet">
+
+    <!-- <style>
+    .box {
+        width: 70px;
+        height: 70px; 
+        border-radius: 60%;
+        overflow: hidden;
+        border: solid 1px gray;
+    }
+    .profile {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    </style> -->
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+    <body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="position: fixed; width:100%;">
+        <div class="container-fluid" style="justify-content: space-between; flex-wrap: nowrap; min-width: 1000px;">
+            <div>
+            <a class="navbar-brand" href="#"><img style="width: 100px;" src="https://logosarchive.com/wp-content/uploads/2021/05/Instagram-logo.png"></a>
+            </div>
+            
+            <div>
+            <!-- <form class="d-flex" role="search"> -->
+            <input class="form-control me-2" style="width: 400px" type="search" placeholder="Search" aria-label="Search">
+            <!-- </form> -->
+            </div>
+
+            <div>
+            <span class="material-icons">            home     </span>
+            <span class="material-icons-outlined">   send     </span>
+            <span class="material-icons-outlined">   add_box  </span>
+            <span class="material-symbols-outlined"> explore  </span>
+            <span class="material-symbols-outlined"> favorite </span>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- 네비바 아래 영역  -->
+    <div style="display: flex; flex-direction: row; text-align: center; justify-content: center; padding-top: 54px; background-color: rgb(240, 240, 240);">
+      <div style="width: 600px ;height: 1000px;margin-right: 250px;">
+        <div style="border: solid 1px gray; background-color: white;">
+          <div> 
+            <div class="box" >
+            <img class="profile" src="http://appdata.hungryapp.co.kr/data_file/data_img_m/201911/M157512113124907113.jpg/hungryapp/resize/500">
+            </div> 
+         </div>
+          <div> beomjin.lee </div>
+          <div> 아이콘 집합 </div>
+          <div> 댓글들 </div>
+          <div> 댓글입력창 </div>
+        </div>
+      </div>
+
+      <div style="width:400px; height: 1000px; background-color: burlywood;margin-left: 760px; position: fixed;">
+        seconds
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+
+</html>
