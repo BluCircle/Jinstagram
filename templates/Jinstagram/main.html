@@ -6,8 +6,8 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Symbols+Outlined" rel="stylesheet">
-
-    <!-- <style>
+    <!-- <link rel="stylesheet" href="style_1.css">  -->
+    <style>
     .box {
         width: 70px;
         height: 70px; 
@@ -20,9 +20,8 @@
         height: 100%;
         object-fit: cover;
     }
-    </style> -->
+    </style>
 
-    <link rel="stylesheet" href="style.css">
 
   </head>
 
@@ -55,15 +54,37 @@
     <div style="display: flex; flex-direction: row; text-align: center; justify-content: center; padding-top: 54px; background-color: rgb(240, 240, 240);">
       <div style="width: 600px ;height: 1000px;margin-right: 250px;">
         <div style="border: solid 1px gray; background-color: white;">
-          <div> 
-            <div class="box" >
+          <div style="display: flex; flex-direction: row; align-items: center; margin-left: 10px;margin-top: 5px;margin-bottom: 5px;"> 
+            <div class="box">
             <img class="profile" src="http://appdata.hungryapp.co.kr/data_file/data_img_m/201911/M157512113124907113.jpg/hungryapp/resize/500">
             </div> 
+            <div> beomjin.lee </div>
          </div>
-          <div> beomjin.lee </div>
-          <div> 아이콘 집합 </div>
-          <div> 댓글들 </div>
-          <div> 댓글입력창 </div>
+
+          <img style="width: 100%;height: 100% ;object-fit: cover;" src="https://img.siksinhot.com/place/1487558798793731.jpg?w=307&h=300&c=Y">
+          
+          <div style="display: flex; flex-direction: row;justify-content: space-between;"> <!--아이콘 집합 -->
+            <div style="margin: 5px 10px;"> <!-- haert, reply, send   ~~   book-->
+            <span class="material-symbols-outlined"> favorite </span>
+            <span class="material-symbols-outlined"> chat_bubble </span>
+            <span class="material-symbols-outlined"> send        </span>
+            </div>
+            <div style="margin: 5px 10px;">
+              <span class="material-symbols-outlined"> bookmark </span>
+            </div>
+          </div>
+          <div style="text-align: left;font-size: 14px;margin-left: 10px;"> Alisu <b>외 7명</b>이 좋아합니다. </div>          
+          <div style="text-align: left;font-size: 16px;margin-left: 10px;"> <b>beomjin.lee</b> 가오슝 여행가서 빙수를 먹어야 겠다. </div>
+          
+          <div style="text-align: left;font-size: 14px;margin-left: 10px;"> <b>nayoen.oh</b> 좋아 좋아 </div>
+          <div style="text-align: left;font-size: 14px;margin-left: 10px;"> <b>super.market</b> 여기 어디야?? </div>
+          <div style="text-align: left;font-size: 14px;margin-left: 10px;"> <b>Hawaii.official</b> 하와이와서 아사이볼도 먹어보세요. </div>
+          
+          <div> 2:31:24</div>
+
+          <div> 
+            <input type="text" class="form-control" style="box-shadow: none; border-radius: 0;" id="exampleFormControlInput1" placeholder="댓글 달기..">
+          </div>
         </div>
       </div>
 
